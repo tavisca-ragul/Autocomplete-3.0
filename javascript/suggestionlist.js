@@ -178,7 +178,6 @@ function loadEvents() {
 }
 
 function loadClickVisibilityEvents(args) {
-	let elem;
 	if(document.getElementById(handleElementsVisiblity.nameInputHolder.actionurl) !== null)
 		handleElementsVisiblity.nameInputHolder.action(args);
 
@@ -190,7 +189,6 @@ function loadClickVisibilityEvents(args) {
 }
 
 function loadInputVisibilityEvents(args) {
-	let elem;
 	if(document.getElementById(handleElementsVisiblity.nameInput.actionurl) !== null)
 		handleElementsVisiblity.nameInput.input(args);
 }
